@@ -15,24 +15,6 @@ import android.widget.Toast;
 
 import java.util.Date;
 
-/*
-    @Họ và tên sinh viên:
-        Nguyễn Quốc Tuấn - 20194402
-    @Mô tả ứng dụng:
-        Ứng dụng cho phép người dùng nhập các thông tin sau:
-        + MSSV (bắt buộc)
-        + Họ tên (bắt buộc)
-        + Số CCCD (bắt buộc)
-        + Số điện thoại (bắt buộc)
-        + Địa chỉ email (bắt buộc)
-        + Ngày tháng năm sinh (sử dụng widget CalendarView để chọn ngày tháng năm)
-        + Quê quán
-        + Nơi ở hiện tại
-        + Ngành học hiện tại (sử dụng radio button để chọn Khoa học máy tính hoặc Kỹ thuật máy tính)
-        + Ngôn ngữ lập trình (sử dụng check box để chọn, bao gồm C, Java, Python, ...)
-        Bên dưới form có 1 check box để đồng ý điều khoản (bắt buộc đồng ý)
-
- */
 public class MainActivity extends AppCompatActivity {
     Button btnBirthDate, btnSubmit;
     CalendarView calendar;
